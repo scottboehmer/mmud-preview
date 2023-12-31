@@ -486,3 +486,25 @@ ul,ol,dl {
 .jumplist {
     overflow-wrap: break-word;
 }
+
+.crit-chart {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media only screen and (max-width: 720px) {
+  .crit-chart {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
+
+.crit-chart-location {
+  padding: 1.0rem;
+}
+
+.crit-chart  ol {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.8rem;
+  line-height: 1.1;
+}
