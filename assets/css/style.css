@@ -518,6 +518,7 @@ ul,ol,dl {
     text-align: center;
     line-height: 50px;
     border: solid 2px #bd2d21;
+    background-color: #f2f2f2;
     cursor: pointer;
 }
 
